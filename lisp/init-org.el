@@ -22,6 +22,9 @@
 
 ;;; Code:
 
+(setq org-default-notes-file (quote "~/org/inbox.org"))
+(setq org-agenda-files '("~/org/inbox.org" "~/org/esbmc.org" "~/org/research.org" "~/org/personal.org"))
+
 (when *is-a-mac*
   (maybe-require-package 'grab-mac-link))
 
