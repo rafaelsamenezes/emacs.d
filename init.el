@@ -86,7 +86,7 @@
 (require 'init-whitespace)
 
 (require 'init-vc)
-(require 'init-darcs)
+;; (require 'init-darcs)
 (require 'init-git)
 (require 'init-github)
 
@@ -142,9 +142,9 @@
 (require 'init-misc)
 
 (require 'init-folding)
-(require 'init-dash)
+;; (require 'init-dash)
 
-(require 'init-ledger)
+;; (require 'init-ledger)
 ;; (require 'init-lua)
 ;; (require 'init-uiua)
 ;; (require 'init-zig)
